@@ -3,31 +3,31 @@ import type { EducationItem } from '../types/portfolio';
 export const EDUCATION_DATA: EducationItem[] = [
   {
     id: "edu-gla",
-    degree: "B.Tech. in Computer Science and Engineering",
-    university: "GLA University",
+    degree: "Bachelor of Technology in Computer Science",
+    university: "GLA University, Mathura",
     logo: "/gla_logo.png?v=3",
-    duration: "July 2024 — July 2028",
-    cgpa: "Mathura, Uttar Pradesh",
-    honors: "Data Structures & Core Engineering Focus",
-    coursework: ["Data Structures & Algorithms", "Web Engineering", "Database Systems (MongoDB)", "Object-Oriented Programming (Java)", "AI & Prompt Engineering"]
+    duration: "August 2028",
+    cgpa: "CPI: 7.19",
+    honors: "GLA University, Mathura",
+    coursework: ["Data Structures & Algorithms", "Web Engineering", "Database Systems (MongoDB)", "Object-Oriented Programming (Java)", "Software Engineering"]
   },
   {
     id: "edu-12th",
-    degree: "12th Standard",
-    university: "Aditya Birla Intermediate College",
+    degree: "Intermediate (CBSE)",
+    university: "Aditya Birla Intermediate College, Renukoot",
     logo: "/abic_logo.png?v=5",
-    duration: "March 2024",
-    cgpa: "72% Aggregate",
+    duration: "May 2024",
+    cgpa: "Percentage: 72%",
     honors: "Renukoot, Uttar Pradesh",
     coursework: ["Physics", "Chemistry", "Mathematics", "Computer Science"]
   },
   {
     id: "edu-10th",
-    degree: "10th Standard",
-    university: "Aditya Birla Intermediate College",
+    degree: "High School (CBSE)",
+    university: "Aditya Birla Intermediate College, Renukoot",
     logo: "/abic_logo.png?v=5",
-    duration: "March 2022",
-    cgpa: "87.66% Aggregate",
+    duration: "May 2022",
+    cgpa: "Percentage: 87.6%",
     honors: "Renukoot, Uttar Pradesh",
     coursework: ["Mathematics", "Science", "English", "Social Studies"]
   }

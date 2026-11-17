@@ -23,7 +23,7 @@ export interface ExperienceItem {
   company: string;
   location: string;
   period: string;
-  type: 'Full-time' | 'Contract' | 'Lead' | 'Internship';
+  type: 'Full-time' | 'Contract' | 'Lead' | 'Internship' | 'Training';
   description: string;
   achievements: string[];
   skills: string[];

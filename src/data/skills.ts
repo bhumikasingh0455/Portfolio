@@ -3,32 +3,31 @@ import type { CategorizedSkills } from '../types/portfolio';
 export const SKILLS_CATEGORIES_GRID: CategorizedSkills[] = [
   {
     category: "Programming Languages",
-    skills: ["Java", "JavaScript"]
+    skills: ["HTML", "CSS", "Java", "Python", "JavaScript"]
   },
   {
-    category: "Web Technologies",
-    skills: ["HTML", "CSS", "React.js", "Node.js"]
+    category: "Web & Frameworks",
+    skills: ["React", "Node.js", "Express.js", "Socket.IO"]
   },
   {
     category: "Database & Backend",
-    skills: ["MongoDB", "Express.js"]
+    skills: ["Mongo DB", "Mongoose", "REST APIs"]
   },
   {
     category: "Tools & Platforms",
-    skills: ["Git", "VS Code", "GitHub"]
+    skills: ["Git", "GitHub", "VS Code", "Vercel"]
   },
   {
-    category: "Core Concepts",
-    skills: ["Data Structures", "Problem Solving"]
+    category: "Professional Skills",
+    skills: ["Effective Communication", "Teamwork and Collaboration", "Problem Solving", "Adaptability & Continuous Learning", "Interpersonal Skills"]
   },
   {
     category: "AI & Emerging Skills",
-    skills: ["Prompt Engineering", "AI Integration"]
+    skills: ["AI Integration", "Prompt Engineering", "OpenAI API"]
   }
 ];
 
 export const TECH_STACK_MARQUEE = [
-  "React.js", "Node.js", "Express.js", "MongoDB", "Socket.IO", "JavaScript",
-  "Java", "Git", "GitHub", "Vercel", "AI Integration", "Prompt Engineering",
-  "HTML5", "CSS3", "REST APIs", "VS Code"
+  "React", "Node.js", "Express.js", "Mongo DB", "Java", "Python", "JavaScript",
+  "HTML", "CSS", "Socket.IO", "Git", "GitHub", "Vercel", "AI Integration", "REST APIs"
 ];

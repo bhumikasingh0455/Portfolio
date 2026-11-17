@@ -15,6 +15,21 @@ export const EXPERIENCE: ExperienceItem[] = [
       "Practiced modern web development standards and collaborative software engineering."
     ],
     skills: ["React.js", "Node.js", "Express.js", "MongoDB", "JavaScript", "REST APIs", "Git"]
+  },
+  {
+    id: "nptel-se",
+    role: "Software Engineering Certification",
+    company: "National Program on Technology Enhanced Learning (NPTEL)",
+    location: "Online",
+    period: "July — October 2025",
+    type: "Training",
+    description: "Completed comprehensive software engineering certification covering software lifecycle models, agile methodologies, object-oriented design, system architecture, and quality assurance.",
+    achievements: [
+      "Mastered software engineering lifecycle processes, requirement engineering, and UML architectural modeling.",
+      "Trained in agile sprint frameworks, continuous integration principles, and automated testing.",
+      "Successfully certified in Software Engineering by NPTEL Online."
+    ],
+    skills: ["Software Engineering", "SDLC", "Agile", "UML", "Testing", "System Design"]
   }
 ];
 
@@ -92,10 +107,18 @@ export const JOURNEY_MILESTONES: JourneyMilestone[] = [
     accentColor: "from-cyan-500 to-blue-600"
   },
   {
+    year: "2025",
+    title: "NPTEL – Software Engineering",
+    subtitle: "National Program on Technology Enhanced Learning",
+    description: "Completed comprehensive software engineering certification online.",
+    icon: "Sparkles",
+    accentColor: "from-blue-500 to-cyan-500"
+  },
+  {
     year: "2024",
     title: "B.Tech CSE Admission",
     subtitle: "GLA University",
-    description: "Began B.Tech in Computer Science & Engineering at GLA University, Mathura.",
+    description: "Began B.Tech in Computer Science at GLA University, Mathura.",
     icon: "Box",
     accentColor: "from-purple-500 to-indigo-600"
   }

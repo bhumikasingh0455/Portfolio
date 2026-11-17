@@ -8,7 +8,7 @@ export const PROJECTS: Project[] = [
       "AI-powered mock interview preparation & ATS resume analyzer platform.",
     category: "Full-Stack",
     description:
-      "A full-stack, AI-powered interview preparation platform featuring live Web Speech speech-to-text mock interviews, automated ATS resume parsing & scoring, interactive DSA checklist tracking, and real-time OpenAI feedback.",
+      "AI-powered full-stack interview preparation platform that enables users to practice mock interviews, analyse ATS resume scores, track DSA progress, and receive AI-generated feedback through an interactive MERN-based dashboard.",
     fullDescription:
       "PrepAI is an intelligent interview preparation system that enables software engineering candidates to practice mock interviews with real-time speech recognition and AI answer evaluation. The platform features an automated ATS resume analyzer that extracts PDF text to match skill keywords, an interactive DSA practice sheet covering core algorithms, and a global leaderboard tracking user progress.",
     image: "/tech_forge_dashboard.png",
@@ -89,13 +89,13 @@ export const PROJECTS: Project[] = [
   },
   {
     id: "proshop-ecommerce",
-    title: "ProShop E-Commerce",
-    tagline: "Full-stack online shopping platform with Stripe payment gateway.",
+    title: "E-Commerce",
+    tagline: "Full-stack online shopping platform with seamless checkout.",
     category: "Full-Stack",
     description:
-      "A modern full-stack e-commerce web platform featuring product catalog browsing, product review & rating system, local-storage cart persistence, admin dashboard, user order history, and Stripe integration.",
+      "Full-stack online shopping platform that allows users to browse products, manage shopping carts, authenticate securely, and complete seamless purchases with a responsive and user-friendly interface.",
     fullDescription:
-      "ProShop E-Commerce is a comprehensive shopping solution providing full CRUD admin product and order management, product review mechanisms, search and pagination features, secure checkout workflows with shipping calculations, and Stripe test payment processing.",
+      "Full-stack online shopping platform that allows users to browse products, manage shopping carts, authenticate securely, and complete seamless purchases with a responsive and user-friendly interface. Includes cart persistence, admin dashboard, order management, and secure checkout workflows.",
     image: "/budget_buddy_dashboard.png",
     tags: [
       "React.js",
@@ -167,6 +167,48 @@ export const PROJECTS: Project[] = [
       "Express API Router & Controllers",
       "MongoDB Mongoose Task Model",
       "Axios HTTP Client Integration",
+    ],
+  },
+  {
+    id: "campus-connect-ai",
+    title: "CampusConnect AI",
+    tagline: "Full-stack MERN campus management platform with Socket.IO.",
+    category: "Full-Stack",
+    description:
+      "Full-stack MERN-based campus management platform that streamlines hostel operations and academic activities through role-based dashboards. Features include hostel room allocation, mess menu management, leave applications, complaint tracking, fee management, attendance, gate management, and real-time announcements using Socket.IO.",
+    fullDescription:
+      "Full-stack MERN-based campus management platform that streamlines hostel operations and academic activities through role-based dashboards. Features include hostel room allocation, mess menu management, leave applications, complaint tracking, fee management, attendance, gate management, and real-time announcements using Socket.IO.",
+    image: "/smart_campus_dashboard.png",
+    modalImage: "/smart_campus_dashboard.png",
+    tags: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Socket.IO",
+      "JWT Auth",
+      "Tailwind CSS",
+    ],
+    featured: true,
+    bentoSpan: "col-span-12 md:col-span-6",
+    demoUrl: "https://campus-connect-ai-omega.vercel.app",
+    githubUrl: "https://github.com/bhumikasingh0455",
+    highlights: [
+      "Role-based dashboards for students, wardens, and campus administrators",
+      "Real-time announcements and emergency notifications powered by Socket.IO",
+      "Digital hostel room allocation, leave approvals, and gate pass management",
+      "Mess menu scheduling, fee management, and ticketed complaint workflows",
+    ],
+    metrics: [
+      { label: "Real-Time", value: "Socket.IO" },
+      { label: "Deployment", value: "Vercel Live" },
+      { label: "Architecture", value: "MERN Stack" },
+    ],
+    architecture: [
+      "React.js & Tailwind CSS Frontend",
+      "Node.js & Express.js REST API",
+      "MongoDB & Mongoose Schemas",
+      "Socket.IO WebSocket Server",
     ],
   },
   {
