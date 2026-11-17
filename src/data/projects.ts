@@ -1,0 +1,161 @@
+import type { Project } from '../types/portfolio';
+
+export const PROJECTS: Project[] = [
+  {
+    id: "prep-ai",
+    title: "PrepAI",
+    tagline: "AI-powered mock interview preparation & ATS resume analyzer platform.",
+    category: "AI & Web",
+    description: "A full-stack, AI-powered interview preparation platform featuring live Web Speech speech-to-text mock interviews, automated ATS resume parsing & scoring, interactive DSA checklist tracking, and real-time OpenAI feedback.",
+    fullDescription: "PrepAI is an intelligent interview preparation system that enables software engineering candidates to practice mock interviews with real-time speech recognition and AI answer evaluation. The platform features an automated ATS resume analyzer that extracts PDF text to match skill keywords, an interactive DSA practice sheet covering core algorithms, and a global leaderboard tracking user progress.",
+    image: "/tech_forge_dashboard.png",
+    modalImage: "/tech_forge_modal_dashboard.png",
+    tags: ["React.js", "Node.js", "Express.js", "MongoDB", "OpenAI API", "Web Speech API", "Tailwind CSS"],
+    featured: true,
+    bentoSpan: "col-span-12 md:col-span-8",
+    demoUrl: "https://ai-interview-platform-three-liart.vercel.app",
+    githubUrl: "https://github.com/bhumikasingh0455/PrepAI",
+    highlights: [
+      "Live Web Speech API speech-to-text mock interview room with real-time timers",
+      "Multi-metric AI answer evaluation analyzing technical correctness and clarity",
+      "Automated ATS resume parser extracting PDF text to match skill keywords",
+      "Interactive DSA practice checklist with topic-wise progress tracking"
+    ],
+    metrics: [
+      { label: "Evaluation", value: "OpenAI Engine" },
+      { label: "Deployment", value: "Vercel Live" },
+      { label: "Architecture", value: "MERN Stack" }
+    ],
+    architecture: [
+      "React.js & Tailwind CSS Frontend",
+      "Node.js & Express.js RESTful API",
+      "MongoDB & Mongoose Data Layer",
+      "OpenAI Node SDK & Web Speech Engine"
+    ]
+  },
+  {
+    id: "dev-connect",
+    title: "DevConnect",
+    tagline: "Real-time developer social collaboration & networking platform.",
+    category: "Full-Stack",
+    description: "A real-time developer social networking platform featuring developer profile showcases, code snippet sharing, interactive feed posts, real-time messaging, and secure JWT authentication.",
+    fullDescription: "DevConnect bridges developer communities by allowing engineers to create custom profiles, share code snippets, publish technical posts, communicate via real-time messaging, and collaborate on software projects with robust authentication and cookie parsing.",
+    image: "/pigeon_dashboard.png",
+    modalImage: "/pigeon_modal_dashboard.png",
+    tags: ["Node.js", "Express.js", "MongoDB", "EJS", "JavaScript", "JWT", "BcryptJS", "Tailwind CSS"],
+    featured: true,
+    bentoSpan: "col-span-12 md:col-span-4",
+    demoUrl: "https://github.com/bhumikasingh0455/Dev_Connect",
+    githubUrl: "https://github.com/bhumikasingh0455/Dev_Connect",
+    highlights: [
+      "Developer profiles featuring bio, skills, and social repository links",
+      "Real-time feed for publishing project updates and code snippets",
+      "JWT authentication with HTTP-only cookies and bcrypt password hashing",
+      "Responsive template rendering built with EJS and Express"
+    ],
+    metrics: [
+      { label: "Security", value: "JWT Auth" },
+      { label: "Data Store", value: "MongoDB" },
+      { label: "Server", value: "Node + Express" }
+    ],
+    architecture: [
+      "Express.js Server & EJS Views",
+      "MongoDB Mongoose Schemas",
+      "JWT & Cookie-Parser Middleware",
+      "BcryptJS Encryption Service"
+    ]
+  },
+  {
+    id: "proshop-ecommerce",
+    title: "ProShop E-Commerce",
+    tagline: "Full-stack online shopping platform with Stripe payment gateway.",
+    category: "Full-Stack",
+    description: "A modern full-stack e-commerce web platform featuring product catalog browsing, product review & rating system, local-storage cart persistence, admin dashboard, user order history, and Stripe integration.",
+    fullDescription: "ProShop E-Commerce is a comprehensive shopping solution providing full CRUD admin product and order management, product review mechanisms, search and pagination features, secure checkout workflows with shipping calculations, and Stripe test payment processing.",
+    image: "/budget_buddy_dashboard.png",
+    tags: ["React.js", "Node.js", "Express.js", "MongoDB", "Stripe API", "Redux", "Tailwind CSS"],
+    featured: true,
+    bentoSpan: "col-span-12 md:col-span-6",
+    demoUrl: "https://github.com/bhumikasingh0455/E-Commerce",
+    githubUrl: "https://github.com/bhumikasingh0455/E-Commerce",
+    highlights: [
+      "Full shopping cart state management with local-storage persistence",
+      "Admin order management, delivery status tracking, and product management",
+      "Integrated Stripe API payment gateway for checkout workflows",
+      "User review & rating system with average score calculations"
+    ],
+    metrics: [
+      { label: "Payments", value: "Stripe Test" },
+      { label: "Cart State", value: "Persistent" },
+      { label: "Database", value: "MongoDB Atlas" }
+    ],
+    architecture: [
+      "React.js Single Page Application",
+      "Express.js RESTful API Controllers",
+      "MongoDB Atlas Product & Order Store",
+      "Stripe Checkout SDK Integration"
+    ]
+  },
+  {
+    id: "task-manager",
+    title: "Task Manager Pro",
+    tagline: "Productivity-focused full-stack task management application.",
+    category: "Full-Stack",
+    description: "A production-quality task management app featuring priority scheduling, real-time status filtering (All/Incomplete/Completed), inline task editing, and smooth animated state transitions.",
+    fullDescription: "Task Manager Pro streamlines daily productivity by offering structured task creation, priority assignment, status updates, inline editing, and filterable task lists backed by a MongoDB Atlas database and Express API service.",
+    image: "/job_trackr_dashboard.png",
+    tags: ["React.js", "Express.js", "Node.js", "MongoDB Atlas", "Axios", "CSS3", "REST API"],
+    featured: true,
+    bentoSpan: "col-span-12 md:col-span-6",
+    demoUrl: "https://github.com/bhumikasingh0455/Task_Manager",
+    githubUrl: "https://github.com/bhumikasingh0455/Task_Manager",
+    highlights: [
+      "Create, edit, delete, and filter daily tasks in real time",
+      "Priority badges and status toggling with instant server sync",
+      "Modular frontend architecture built with Axios service layer",
+      "MongoDB Mongoose schemas designed for rapid CRUD operations"
+    ],
+    metrics: [
+      { label: "UI Updates", value: "Real-Time" },
+      { label: "API Sync", value: "Axios Layer" },
+      { label: "Data Store", value: "Mongoose Atlas" }
+    ],
+    architecture: [
+      "React.js Client Components",
+      "Express API Router & Controllers",
+      "MongoDB Mongoose Task Model",
+      "Axios HTTP Client Integration"
+    ]
+  },
+  {
+    id: "fd-java-bhumika",
+    title: "Java DS & Core Algorithms",
+    tagline: "Data structures & core object-oriented algorithm suite.",
+    category: "Full-Stack",
+    description: "Comprehensive software engineering repository containing Java implementations of fundamental data structures, graph search algorithms, sorting routines, and OOP design patterns.",
+    fullDescription: "An academic and practical algorithms codebase implementing linear and non-linear data structures in Java, including LinkedLists, Stacks, Queues, Binary Trees, Graph Traversals, Dynamic Programming, and Object-Oriented Programming assignments.",
+    image: "/smart_campus_dashboard.png",
+    tags: ["Java", "OOP", "Data Structures", "Algorithms", "Java Collections", "System Design"],
+    featured: true,
+    bentoSpan: "col-span-12 md:col-span-12",
+    demoUrl: "https://github.com/bhumikasingh0455/fd_java_bhumika",
+    githubUrl: "https://github.com/bhumikasingh0455/fd_java_bhumika",
+    highlights: [
+      "Implementation of core Data Structures (Trees, Graphs, Queues, Heaps)",
+      "Sorting and searching algorithms with Big-O time complexity analysis",
+      "Clean object-oriented architecture following SOLID principles",
+      "Comprehensive problem solutions for technical coding interviews"
+    ],
+    metrics: [
+      { label: "Language", value: "Java SE" },
+      { label: "Concepts", value: "DS & Algo" },
+      { label: "Paradigm", value: "OOP Design" }
+    ],
+    architecture: [
+      "Java Standard Edition Runtime",
+      "Object-Oriented Class Hierarchy",
+      "Java Collections & Data Structures",
+      "JUnit Testing Framework"
+    ]
+  }
+];
