@@ -6,7 +6,7 @@ export const PROJECTS: Project[] = [
     title: "PrepAI",
     tagline:
       "AI-powered mock interview preparation & ATS resume analyzer platform.",
-    category: "Full Stack",
+    category: "Full-Stack",
     description:
       "A full-stack, AI-powered interview preparation platform featuring live Web Speech speech-to-text mock interviews, automated ATS resume parsing & scoring, interactive DSA checklist tracking, and real-time OpenAI feedback.",
     fullDescription:
